@@ -1,0 +1,48 @@
+baseURL: "https://snake1015.github.io/aiblog/"
+languageCode: zh-cn
+title: Snaker's AI Lab
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: false
+  minifyOutput: true
+
+params:
+  env: production
+  title: Snaker's AI Lab
+  description: "语音AI、通信技术与国际前沿研究记录"
+  author: 主人
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "欢迎来到 Snaker's AI Lab 👋"
+    Content: "这里记录关于语音AI、通信技术以及国际最前沿的AI研究动态。"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/snake1015/aiblog"
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 30
